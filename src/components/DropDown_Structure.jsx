@@ -2,9 +2,9 @@ import React from "react";
 
 function DropDown_Structure({label_value, options_value, id_value, value, onchange_value}) {
     return (
-        <>
+        <div className="input-align">
           <label htmlFor={id_value}>{label_value}</label>
-          <select
+          <select className="input-dropdown"
             id={id_value}
             name={id_value}
             value={value}
@@ -16,7 +16,7 @@ function DropDown_Structure({label_value, options_value, id_value, value, onchan
               </option>
             ))}
           </select>
-        </>
+        </div>
     )
 }
 

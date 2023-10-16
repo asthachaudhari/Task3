@@ -14,7 +14,7 @@ function Company_Information({companyName, companyAddress, country, state, city,
             <div className="companyInformation">
                 <h2>Company Information</h2>
                 <div>
-                <Input_Structure 
+                <Input_Structure
                     label_value="Name of Company"
                     id_value="companyName" 
                     value={companyName}  

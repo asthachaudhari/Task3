@@ -18,12 +18,16 @@ function Product_Parameters({swelling, viscosity, color, plate, filterloss, qual
                     value={swelling}  
                     onchange_value={handleInputChange}
                     placeholder_value="Parameters of Swelling" />
+                </div>
+                <div>
                 <Input_Structure 
                     label_value="Quality (Viscosity)"
                     id_value="viscosity" 
                     value={viscosity}  
                     onchange_value={handleInputChange}
                     placeholder_value="Parameters of Viscosity" />
+                </div>
+                <div>
                 <DropDown_Structure
                     label_value="Quality (Color)"
                     id_value="color" 
@@ -38,12 +42,16 @@ function Product_Parameters({swelling, viscosity, color, plate, filterloss, qual
                     value={plate}  
                     onchange_value={handleInputChange}
                     placeholder_value="Parameters of Plate" />
+                </div>
+                <div>
                 <Input_Structure 
                     label_value="Quality (filter loss)"
                     id_value="filterloss" 
                     value={filterloss}  
                     onchange_value={handleInputChange}
                     placeholder_value="Parameters of Filter Loss" />
+                </div>
+                <div>
                 <Input_Structure 
                     label_value="Quality (MB)"
                     id_value="mb" 

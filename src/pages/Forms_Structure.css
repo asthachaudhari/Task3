@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+html{
+    background-color: rgba(0, 0, 0, 0.616);
+    background-image: url("../images/page-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.521);
+    width: 1000px;
+    color: white;
+    margin: 0 auto; /* This centers the form horizontally */
+
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 196, 0);
+    font-size: 2em;
+}
+
+h5{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+
+
+.input{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 40px;
+    width: 57%;
+    resize: vertical;
+    padding: .375rem .75rem ;
+}
+
+.input-dropdown{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.699);
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 40px;
+    width: 60%;
+    padding: .375rem .75rem ;
+}
+
+.formsInput{
+    margin: 30px;
+}
+
+.input-align{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+.input-checklist{
+    display: grid;
+    grid: 20px /auto auto auto;
+    grid-gap: 10px;
+}
+
+h2{
+    color: rgb(255, 196, 0);
+    font-size: 2em;
+}
+
+label{
+    font-size: large;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.699);
+}
+
+.send-button{
+    display: block;
+    margin: 0 auto;
+    font-size: 1.5em;
+    height: 3rem;
+    width: 13rem;
+    background: linear-gradient(to bottom, rgb(255, 208, 108), #ffa600);
+    color: white;
+    border-radius: 5px;
+}

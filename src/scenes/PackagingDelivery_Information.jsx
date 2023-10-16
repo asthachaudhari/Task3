@@ -20,6 +20,8 @@ function PackagingDelivery_Information({packingType, packingQty, packingQtyValue
                     value={packingType}  
                     onchange_value={handleInputChange}
                     options_value={packingTypeOptions} />
+                </div>
+                <div>
                 <DropDown_Structure
                     label_value="Packing Qty"
                     id_value="packingQty" 
@@ -34,6 +36,8 @@ function PackagingDelivery_Information({packingType, packingQty, packingQtyValue
                     value={packingQtyValue}  
                     onchange_value={handleInputChange}
                     placeholder_value="Packing Quantity Value" />
+                </div>
+                <div>
                 <DropDown_Structure
                     label_value="Delivery Mode"
                     id_value="deliveryMode" 
